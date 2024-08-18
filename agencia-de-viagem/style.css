@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #80808029;
+    font-family: 'Raleway', sans-serif;
+}
+
+.secao-topo{
+    padding: 0 35px;
+    background-color: #fff;
+}
+
+.secao-topo-img{
+    display: flex;
+    align-items: center;
+    height: 55px;
+    max-width: 1024px;
+    margin:0 auto;
+    width: 100%;
+    color: #5d15d1;
+    font-size: 24px;
+}
+
+.secao-topo img{
+    width:32px;
+    height: 32px;
+    margin: 0 5px;
+}
+
+.secao-capa-imagem{
+    background-image: url("imagens/bahia.jpg");
+    background-size: cover;
+    height: auto;
+    padding:50px;
+    width: 100%; 
+}
+
+.secao-orcamento{
+    background-color: #5d15d1;
+    max-width:1024px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.secao-orcamento-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 35px;
+    font-size: 14px;
+}
+
+.secao-orcamento-img img{
+    width: 20px;
+    height:20px;
+    rotate: -45deg;
+    margin:0 5px;
+}
+
+.formulario{
+    background-color: #fff;
+    max-width:1024px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.formulario h2{
+    padding: 24px 25px;
+    font-size: 22px;
+}
+
+.secao-formulario-inputs{
+    display: flex;
+    flex-direction: column;
+    margin:0 25px;
+}
+
+.secao-formulario-inputs input{
+    margin: 10px 0;
+    height: 32px;
+    padding: 0 5px;
+}
+
+.ida-volta{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 10px;
+}
+
+.ida-volta input, select{
+    height: 32px;
+    margin: 10px 0;
+    padding: 0 3px;
+}
+
+.forma-origem-destino{
+    display: flex;
+    margin: 0 15px;
+}
+
+.origem-destino-direita{
+    display: flex;
+    flex-direction: column;
+}
+
+.escolha{
+    margin: 0 25px;
+}
+
+.escolha-infantil-preferencia{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px 45px;
+    margin:15px 0;  
+}
+
+.escolha-infantil-preferencia label{
+    margin: 0 8px; 
+}
+
+.btn{
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    margin:12px 0 20px 25px;
+    height:32px;
+    width: 160px;
+    border: none;
+    cursor: pointer;  
+}
+
+.secao-subtitulo-imagens,
+ .secao-natureza{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:32px auto 0 auto;
+    height: auto;
+}
+
+.limite-area{
+    max-width: 1024px;
+    width: 100%;
+}
+
+.subtitulo-paragrafo h3{
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.subtitulo-paragrafo p{
+   font-size: 16px;
+   margin-bottom: 15px;
+}
+
+.imagens-cidades{
+    display: flex;
+    width: 100%; 
+    height:375px;
+    justify-content: space-between;
+}
+
+.imagem-destaque{
+    position: relative;
+    width:calc(50% - 10px); 
+    height: 100%; 
+}
+
+.imagem-destaque img {
+    width:100%; 
+}
+
+.imagem-destaque figcaption, .quatro-imagens figcaption{
+    position: relative;
+    bottom: 34px;
+    width: 100%;
+    background-color: rgba(0 0 0 / 50%);
+    color: #fff;
+    font-size: 17px;
+    padding:5px 10px;
+    box-sizing: border-box;
+}
+
+.quatro-imagens{
+    display: flex;
+    justify-content:space-between; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 375px;
+    width: calc(50% - 10px);
+}
+
+.quatro-imagens figure{
+    width: calc(50% - 10px);
+    height:calc(50% - 10px);  
+}
+
+.quatro-imagens img{
+    width: 100%;
+    height: 100%;
+}
+
+.images-natureza{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.images-natureza figure{
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+}
+
+.images-natureza img{
+    width: 100%;
+    height: 100%;
+}
+
+.lencois-cachoeira{
+    background-color:#fff;
+    width: 100%;
+    padding: 20px;
+}
+
+.lencois-cachoeira h3{
+    font-size: 16px;  
+}
+
+.lencois-cachoeira p{
+    font-size: 14px;
+    margin-top: 15px;
+    color: grey;
+}
+
+.rodape-principal{
+    background-color: #5d15d1;
+    margin-top: 32px;
+}
+
+.secao-rodape{
+    display: flex;
+    justify-content: space-between;
+    max-width:1024px;
+    width: 100%;
+    margin:0 auto;
+}
+
+.secao-contato-redes{
+    margin:15px 0 0 0;
+}
+
+.secao-contato-redes figure{
+    display: flex;
+    align-items: center; 
+}
+
+.secao-contato-redes img{
+    width: 18px;
+    margin: 5px;
+}
+
+.secao-contato-redes h3{
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.secao-contato-redes span{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+@media (max-width:1100px){
+    .limite-area{
+        width: 90%;
+    }
+}
+
+@media (max-width:768px){
+    .btn{
+        width:calc(100% - 50px);
+    }
+    
+    .imagens-cidades{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height:100%;
+    }
+
+    .quatro-imagens{
+        width:100%;
+        height:100%;
+    }
+
+    .secao-subtitulo-imagens .subtitulo-paragrafo{
+        margin-bottom: 20px;
+    }
+
+    .secao-natureza .subtitulo-paragrafo{
+        margin-top:-30px;
+    }
+
+    .imagens-cidades figure{
+        width:100%;
+    }
+
+    .images-natureza figure{
+        width:100%;
+    }
+
+    .imagem-destaque img,
+    .quatro-imagens img{
+        height: 225px; 
+        margin-top:-25px;
+    }
+
+    .images-natureza{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+   .secao-rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .secao-contato-redes{
+        width:250px;
+   }
+
+   .secao-contato-redes h3{
+        margin-left:5px;
+   }
+}
+
+@media  (max-width:540px){
+
+    .forma-origem-destino{
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+
+    .escolha-infantil-preferencia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ida-volta{
+        width:calc(100% - 20px);
+    }
+}
